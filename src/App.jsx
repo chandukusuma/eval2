@@ -1,10 +1,10 @@
 import './App.css';
-import AddingJobs from "./redux/actions/AddingJob"
+import { Job } from './redux/actions/Jobs';
 
 function App() {
   return (
     <div className="App">
-      <AddingJobs />
+      <Job></Job>
     </div>
   );
 }

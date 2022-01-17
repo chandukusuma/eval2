@@ -43,6 +43,8 @@ import {nanoid} from "nanoid"
     
 
         return(
+            <>
+            <h2>Add New Job</h2>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="Company">Company_name</label> <br/>
@@ -72,6 +74,8 @@ import {nanoid} from "nanoid"
                     <input type="submit" value="submit" onSubmit={handleSubmit} />
                 </div>
             </form>
+
+            </>
         )
 }
 
